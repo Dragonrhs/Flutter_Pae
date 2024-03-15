@@ -31,5 +31,6 @@ main(){
   var div = a / b;
 
   print("resultado da soma: " + soma.toString() + " resultado da subtração: " + sub.toString() + " resultado da multiplicação: " + mult.toString() + " resultado da divisão: " + div.toString();
-
+  print("resultado da subtraçao: $sub" );
+  
 }
