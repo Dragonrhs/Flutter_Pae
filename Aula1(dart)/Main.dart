@@ -132,5 +132,10 @@ class Animal{
 
     dog(super.nome, super.cor, super.peso); //esta referenciando o "pai"
 
+  @override    //sobrescriçao da funçao para esta
+    void emitirsom(){
 
+      print("$nome esta latindo");
+
+    }
   }
