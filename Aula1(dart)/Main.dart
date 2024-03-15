@@ -32,5 +32,24 @@ main(){
 
   print("resultado da soma: " + soma.toString() + " resultado da subtração: " + sub.toString() + " resultado da multiplicação: " + mult.toString() + " resultado da divisão: " + div.toString();
   print("resultado da subtraçao: $sub" );
-  
+
+  //operadores logicos
+
+  if(a > b){
+    print("a é maior que b");
+  }else{
+    print("b é maior que a");
+  }
+
+ // if e else if "elif"
+
+  if (a < b){
+    print("a é menor que b");
+  }else if(a == b){
+    print("a é igual a b");
+  }else{
+    print("a é maior que b");
+  }
+
+
 }
