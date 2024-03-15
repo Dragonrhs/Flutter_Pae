@@ -85,11 +85,11 @@ int somaDoisNumeros(int a, int b){
   print(subtraiDoisNumeros(10, 5));
 
   //classe
-  //var cachorro = new Animal("Scooby", "Marrom", 10.0); 
+  var cachorro1 = new Animal("Scooby", "Marrom", 10.0); 
 
-  //cachorro.comer();
-  //cachorro.emitirsom();
-  //cachorro.dormir();
+  cachorro1.comer();
+  cachorro1.emitirsom();
+  cachorro1.dormir();
 
 //com herança
   var cachorro = new dog("Scooby", "Marrom", 10.0);
@@ -97,6 +97,14 @@ int somaDoisNumeros(int a, int b){
 cachorro.comer();
 cachorro.emitirsom();
 cachorro.dormir();
+
+ var calopsita = new bird("Piu", "Cinza", 0.5);
+
+  calopsita.comer();
+  calopsita.emitirsom();
+  calopsita.dormir();
+  calopsita.voar();
+
 }
 
 //classe
@@ -132,10 +140,29 @@ class Animal{
 
     dog(super.nome, super.cor, super.peso); //esta referenciando o "pai"
 
-  @override    //sobrescriçao da funçao para esta
+   @override    //sobrescriçao da funçao para esta
     void emitirsom(){
 
       print("$nome esta latindo");
 
     }
   }
+
+  class bird extends Animal implements voador{
+
+    bird(super.nome, super.cor, super.peso);
+    
+      @override
+      void voar() {
+        print("$nome esta voando");
+      } 
+
+    }
+  
+
+  //nao se pode criar objeto na classe abstrata
+  abstract class voador{
+      
+      void voar();
+
+    }
