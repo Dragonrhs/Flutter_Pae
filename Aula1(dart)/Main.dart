@@ -51,5 +51,10 @@ main(){
     print("a é maior que b");
   }
 
+  //fluxo de repetição
+
+  for (int i = 0; i < 3; i++){
+    print("valor de i: $i");
+  }
 
 }
