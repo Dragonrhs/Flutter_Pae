@@ -84,6 +84,9 @@ int somaDoisNumeros(int a, int b){
   print(somaDoisNumeros(10, 5));
   print(subtraiDoisNumeros(10, 5));
 
+  //classe
+  var cachorro = new Animal("Scooby", "Marrom", 10.0); 
+  
 }
 
 //classe
