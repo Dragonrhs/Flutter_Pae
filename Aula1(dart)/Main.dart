@@ -85,12 +85,18 @@ int somaDoisNumeros(int a, int b){
   print(subtraiDoisNumeros(10, 5));
 
   //classe
-  var cachorro = new Animal("Scooby", "Marrom", 10.0); 
+  //var cachorro = new Animal("Scooby", "Marrom", 10.0); 
 
-  cachorro.comer();
-  cachorro.emitirsom();
-  cachorro.dormir();
+  //cachorro.comer();
+  //cachorro.emitirsom();
+  //cachorro.dormir();
 
+//com herança
+  var cachorro = new dog("Scooby", "Marrom", 10.0);
+
+cachorro.comer();
+cachorro.emitirsom();
+cachorro.dormir();
 }
 
 //classe
