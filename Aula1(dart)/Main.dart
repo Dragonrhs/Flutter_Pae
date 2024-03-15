@@ -9,13 +9,15 @@ main(){
   // print(nome);
 
   // nome = 123; //nao da erro, pois a variavel nao esta tipada ele tipa na memoria 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  const int idade = 20; //constante
   String nome = "Ryuske";
-  int idade = 20;
+  //int idade = 20;
   double altura = 1.71;
   bool estudante = true;
 
   print(nome + " tem " + idade.toString() + " anos e " + altura.toString() + " de altura." + " Estudante: " + estudante.toString());
 
   
+
 }
