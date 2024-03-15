@@ -85,3 +85,16 @@ int somaDoisNumeros(int a, int b){
   print(subtraiDoisNumeros(10, 5));
 
 }
+
+//classe
+
+class Animal{
+  String nome;
+  String cor;
+  double peso;
+
+  Animal(this.nome, this.cor, this.peso); //cosntrutor
+
+  
+  }
+
