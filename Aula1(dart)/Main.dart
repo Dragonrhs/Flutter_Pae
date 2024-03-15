@@ -86,7 +86,7 @@ int somaDoisNumeros(int a, int b){
 
   //classe
   var cachorro = new Animal("Scooby", "Marrom", 10.0); 
-  
+
 }
 
 //classe
@@ -98,6 +98,20 @@ class Animal{
 
   Animal(this.nome, this.cor, this.peso); //cosntrutor
 
-  
+  void comer(){
+
+    print("$nome esta comendo");
+
+  void emitirsom(){
+
+    print("$nome esta emitindo som");
+
   }
 
+  void dormir(){
+
+    print("$nome esta dormindo");
+
+      }
+    }
+  }
