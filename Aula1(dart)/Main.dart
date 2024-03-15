@@ -87,6 +87,10 @@ int somaDoisNumeros(int a, int b){
   //classe
   var cachorro = new Animal("Scooby", "Marrom", 10.0); 
 
+  cachorro.comer();
+  cachorro.emitirsom();
+  cachorro.dormir();
+  
 }
 
 //classe
@@ -96,11 +100,12 @@ class Animal{
   String cor;
   double peso;
 
-  Animal(this.nome, this.cor, this.peso); //cosntrutor
+  Animal(this.nome, this.cor, this.peso); //construtor
 
   void comer(){
 
     print("$nome esta comendo");
+  }
 
   void emitirsom(){
 
@@ -113,5 +118,5 @@ class Animal{
     print("$nome esta dormindo");
 
       }
-    }
+  
   }
