@@ -56,5 +56,13 @@ main(){
   for (int i = 0; i < 3; i++){
     print("valor de i: $i");
   }
+//n tem do while 
+
+  int j = 0;
+  while(j < 3){
+    print("valor de j: $j");
+    j++;
+  }
+
 
 }
