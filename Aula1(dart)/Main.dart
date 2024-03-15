@@ -64,5 +64,24 @@ main(){
     j++;
   }
 
+//funçoes e classes 
+
+ void digaola(){
+    print("ola");
+  };
+
+int somaDoisNumeros(int a, int b){
+
+  soma = a + b;
+  return soma;
+
+}
+ int subtraiDoisNumeros(int a, int b){
+   return a - b;
+ }
+
+  digaola();
+  print(somaDoisNumeros(10, 5));
+  print(subtraiDoisNumeros(10, 5));
 
 }
