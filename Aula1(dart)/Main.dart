@@ -15,7 +15,7 @@ main(){
   double altura = 1.71;
   bool estudante = true;
 
-  print(nome + " tem " + idade.toString() + " anos e " + altura.toString() + " de altura.");
+  print(nome + " tem " + idade.toString() + " anos e " + altura.toString() + " de altura." + " Estudante: " + estudante.toString());
 
   
 }
