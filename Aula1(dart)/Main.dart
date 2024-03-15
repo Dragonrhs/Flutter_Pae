@@ -90,7 +90,7 @@ int somaDoisNumeros(int a, int b){
   cachorro.comer();
   cachorro.emitirsom();
   cachorro.dormir();
-  
+
 }
 
 //classe
@@ -119,4 +119,12 @@ class Animal{
 
       }
   
+  }
+
+  //herança
+  class dog extends Animal{
+
+    dog(super.nome, super.cor, super.peso); //esta referenciando o "pai"
+
+
   }
