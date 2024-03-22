@@ -35,6 +35,7 @@ class Homepage extends StatelessWidget{
     // return Container(
     //   color: Colors.blue
     // );
+
   return Scaffold(
     appBar: AppBar(
       title: const Text("Home page"),
@@ -42,9 +43,34 @@ class Homepage extends StatelessWidget{
       leading: const Icon(Icons.person),
     ),
 
-    body: const Center(
-      child: Text("Olá, mundo!"),
-    ),
+
+
+
+    body: const Column(
+        children: [
+          Text("Texto 1"),
+          Text("Texto 2"),
+          Text("Texto 3"),
+          Row(mainAxisAlignment: MainAxisAlignment.center, 
+          children: [
+             Text("Texto 4"),
+             Text("Texto 5"),
+             Text("Texto 6"),
+          ],
+          ),
+
+      
+        ElevatedButton(
+          onPressed:null,
+          
+          child: Text("Clique aqui")
+        ), 
+
+        
+
+        ] 
+      )
+    
   
   );
     
