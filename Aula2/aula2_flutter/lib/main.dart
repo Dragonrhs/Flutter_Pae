@@ -58,22 +58,20 @@ class Homepage extends StatelessWidget{
              Text("Texto 6"),
           ],
           ),
-
-      
-        ElevatedButton(
-          onPressed:null,
-          
-          child: Text("Clique aqui")
-        ), 
-
-        
-
-        ] 
-      )
-    
-  
-  );
-    
-  
-}
+     ElevatedButton(
+            onPressed: () {
+              print('Botão clicado');
+            },
+            child: const Text('Primeiro Botão'),
+          ),
+          const Padding(
+            padding: EdgeInsets.only(top: 24, bottom: 4, left: 16, right: 87),
+            child: Icon(
+              Icons.home,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }
