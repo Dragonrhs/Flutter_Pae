@@ -16,8 +16,8 @@ class Homepage extends StatelessWidget{
         backgroundColor: const Color.fromRGBO(125, 96, 161, 1),
       
       ),
-      body: 
+      body: const Text("teste")
 
-    )
+    );
 }
 }
