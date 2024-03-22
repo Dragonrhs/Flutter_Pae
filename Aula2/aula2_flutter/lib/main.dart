@@ -46,21 +46,21 @@ class Homepage extends StatelessWidget{
 
 
 
-    body: const Column(
+    body:  Column(
         children: [
-          Text("Texto 1"),
-          Text("Texto 2"),
-          Text("Texto 3"),
-          Row(mainAxisAlignment: MainAxisAlignment.center, 
+          const Text("Texto 1"),
+          const Text("Texto 2"),
+          const Text("Texto 3"),
+          const Row(mainAxisAlignment: MainAxisAlignment.center, 
           children: [
-             Text("Texto 4"),
-             Text("Texto 5"),
-             Text("Texto 6"),
+              Text("Texto 4"),
+              Text("Texto 5"),
+              Text("Texto 6"),
           ],
           ),
      ElevatedButton(
             onPressed: () {
-              print('Botão clicado');
+            print('Botão clicado');
             },
             child: const Text('Primeiro Botão'),
           ),
