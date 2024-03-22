@@ -14,8 +14,21 @@ class PrimeiroApp extends StatelessWidget {
     //primeiro widget q tem q colocar na hierarquia de widgets
     return MaterialApp(
 
-  
+      title: "Meu Primeiro App",
+      home: Homepage(),
     );
     
+}
+}
 
+class Homepage extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context) {
+    
+    return Container(
+      color: Colors.blue
+    );
+
+}
 }
