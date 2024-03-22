@@ -5,19 +5,29 @@ void main() {
 
 }
 
-
 class Homepage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Home page"),
-        backgroundColor: const Color.fromRGBO(125, 96, 161, 1),
-      
-      ),
-      body: const Text("teste")
+    return MaterialApp(
+      title: "Entrega_1",
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Home page"),
+          backgroundColor: const Color.fromRGBO(125, 96, 161, 1),
+        
+        ),
+        body: const Text("teste")
 
+      )
     );
 }
 }
+
+
+
+
+
+
+
+
