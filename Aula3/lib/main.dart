@@ -12,6 +12,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context){
     return const MaterialApp(
       title: 'Pagina',
+      debugShowCheckedModeBanner: false,
       home: Homepage(),
     );
   }
@@ -25,12 +26,19 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.black, 
+        centerTitle: true,
         title: const Text('Flutter', style:TextStyle(color: Colors.white),),
+        leading: const Icon(Icons.menu, color: Colors.white),
+        actions: const <Widget>[
+          Icon(Icons.search, color: Colors.white),
+          SizedBox(width: 24,),
+          Icon(Icons.shopping_cart, color: Colors.white),
+          SizedBox(width: 16,),
+        ],
       ),
       
     );  
-      
     
   }
 }
