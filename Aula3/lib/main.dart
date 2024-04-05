@@ -37,7 +37,13 @@ class Homepage extends StatelessWidget {
           SizedBox(width: 16,),
         ],
       ),
-      
+      body: const Column(
+        children: [
+          Text("Aprenda flutter no seu tempo"),
+          Text("Bora aprender Flutter! Compre meu curso por R\$22,90.Qualidade garantida"),
+        ],
+        ),
+
     );  
     
   }
