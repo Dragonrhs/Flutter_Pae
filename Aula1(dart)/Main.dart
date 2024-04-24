@@ -105,7 +105,7 @@ cachorro.dormir();
   calopsita.dormir();
   calopsita.voar();
 
-  Animal animal = new bird("calopsita", "amarelo", 10);
+ // Animal animal = new bird("calopsita", "amarelo", 10);
 
 }
 
