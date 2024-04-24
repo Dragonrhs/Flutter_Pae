@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_stateful_project/pages/home_page.dart';
-import 'package:navigation_stateful_project/pages/second_page.dart';
+import 'package:aula4/pages/home_page.dart';
+import 'package:aula4/pages/second_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

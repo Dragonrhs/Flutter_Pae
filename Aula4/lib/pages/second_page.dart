@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_stateful_project/components/item_component.dart';
+import 'package:aula4/components/item_component.dart';
 
 class SecondPage extends StatefulWidget {
   const SecondPage({super.key});
