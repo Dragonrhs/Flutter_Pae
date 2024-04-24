@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:aula4/components/item_component.dart';
 
 class SecondPage extends StatefulWidget {
   const SecondPage({super.key});
@@ -9,29 +8,29 @@ class SecondPage extends StatefulWidget {
 }
 
 class _SecondPageState extends State<SecondPage> {
-  List<int> contador = [0, 1];
-
+  int contador = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
+        appBar: AppBar(
+          title: const Text('Second Page'),
+          backgroundColor: Colors.blue,
+        ),
+        body: Center(
+            child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ItemComponent(
-              contador: contador[0],
-            ),
+            Text(contador.toString()),
             ElevatedButton(
-              onPressed: () {
-                setState(() {
-                  contador.add(contador.length);
-                });
-              },
-              child: const Text('Increment Counter'),
-            ),
+                onPressed: () {
+                  setState(() {
+                    contador += 1;
+                    // ignore: avoid_print
+                    print(contador.toString());
+                  });
+                },
+                child: const Text('Increment Button'))
           ],
-        ),
-      ),
-    );
+        )));
   }
 }
